@@ -1,0 +1,12 @@
+Задача 3. Аналіз тексту
+Створи функцію analyzeText, яка приймає рядок тексту і повертає об'єкт зі статистикою:
+
+Кількість слів у тексті.
+Кількість унікальних слів.
+Найдовше слово.
+
+
+Приклад:
+
+console.log(analyzeText("hello world hello universe"));
+// { wordCount: 4, uniqueWords: 3, longestWord: "universe" }
